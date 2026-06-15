@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>25 Brand Briefs — Complete Mockup Portfolio Pack</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+  :root {
+    --ink: #1B1B18;
+    --paper: #F6F3EC;
+    --rule: #D8D2C4;
+    --accent: #B5502E;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+  }
+
+  .intro {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 32px 48px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .intro .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+  }
+
+  .intro h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: clamp(36px, 6vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+  }
+
+  .intro p {
+    max-width: 600px;
+    font-size: 16px;
+    color: #5C5851;
+  }
+
+  .grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 32px 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+
+  .card {
+    background: var(--paper);
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 16px;
+  }
+
+  .card-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: #A8A296;
+    letter-spacing: 0.08em;
+  }
+
+  .card-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+  }
+
+  .card-industry {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #5C5851;
+    margin-top: 4px;
+  }
+
+  .card-story {
+    font-size: 14.5px;
+    color: #3A3732;
+  }
+
+  .label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #A8A296;
+    margin-bottom: 8px;
+  }
+
+  .traits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .traits span {
+    font-size: 12px;
+    padding: 4px 10px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    color: #5C5851;
+  }
+
+  .palette {
+    display: flex;
+    gap: 8px;
+  }
+
+  .swatch {
+    flex: 1;
+    height: 44px;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .swatch::after {
+    content: attr(data-hex);
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    color: #A8A296;
+  }
+
+  .swatch-row {
+    margin-bottom: 28px;
+  }
+
+  .mockups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 16px;
+    font-size: 13px;
+    color: #3A3732;
+  }
+
+  .mockups li {
+    list-style: none;
+    padding-left: 14px;
+    position: relative;
+  }
+
+  .mockups li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 6px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .mockups li.hero {
+    grid-column: 1 / -1;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .mockups li.hero::before {
+    background: var(--ink);
+    width: 10px;
+  }
+
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 32px 80px;
+    font-size: 13px;
+    color: #A8A296;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<div class="intro">
+  <div class="eyebrow">Fake client briefs — complete set</div>
+  <h1>Twenty-five brands that don't exist yet.</h1>
+  <p>Each one comes with an industry, a story, a personality, a palette, and a mockup list — ready to build a portfolio set around. No two share an industry, palette, or visual direction.</p>
+</div>
+
+<div class="grid">
+  <!-- 1 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Verre &amp; Co.</div>
+        <div class="card-industry">Natural wine &amp; small-batch cider</div>
+      </div>
+      <div class="card-num">01 / 25</div>
+    </div>
+    <div class="card-story">A négociant-style label for low-intervention winemakers — small runs, hand-numbered bottles, and labels that change with every harvest. The brand is the constant; the artwork is the variable.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Unpolished</span><span>Confident</span><span>Seasonal</span><span>Tactile</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#E8E2D4" data-hex="#E8E2D4"></div>
+        <div class="swatch" style="background:#7A2E2E" data-hex="#7A2E2E"></div>
+        <div class="swatch" style="background:#C9A227" data-hex="#C9A227"></div>
+        <div class="swatch" style="background:#3D4F3A" data-hex="#3D4F3A"></div>
+        <div class="swatch" style="background:#23211D" data-hex="#23211D"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Wine bottle + custom label</li>
+        <li>Wax-sealed cork top</li>
+        <li>Wooden crate stencil</li>
+        <li>Tasting room signage</li>
+        <li>Cellar door menu card</li>
+        <li>Tote bag</li>
+        <li>Shipping carton</li>
+        <li>Instagram label-of-the-month grid</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Solene Lab</div>
+        <div class="card-industry">Clean skincare &amp; minimalist cosmetics</div>
+      </div>
+      <div class="card-num">02 / 25</div>
+    </div>
+    <div class="card-story">A skincare line built on visible ingredient lists and refillable packaging. Solene Lab treats the bathroom shelf like a design object — quiet, clinical, slightly editorial.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Clinical</span><span>Honest</span><span>Pared-back</span><span>Calm</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F2EFE9" data-hex="#F2EFE9"></div>
+        <div class="swatch" style="background:#D7CFC2" data-hex="#D7CFC2"></div>
+        <div class="swatch" style="background:#9CA9A0" data-hex="#9CA9A0"></div>
+        <div class="swatch" style="background:#4C5C53" data-hex="#4C5C53"></div>
+        <div class="swatch" style="background:#1F1E1B" data-hex="#1F1E1B"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Refillable glass dropper bottle</li>
+        <li>Cream jar + lid</li>
+        <li>Box packaging w/ ingredient panel</li>
+        <li>Pump bottle (body line)</li>
+        <li>Shelf flat lay</li>
+        <li>Pharmacy-style shelf display</li>
+        <li>Sample sachet</li>
+        <li>Website product page</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Kobun</div>
+        <div class="card-industry">Ramen &amp; noodle bar</div>
+      </div>
+      <div class="card-num">03 / 25</div>
+    </div>
+    <div class="card-story">A counter-seating ramen bar built around one broth, perfected over a decade. Kobun's identity borrows from Japanese tasting-menu restraint — short menu, loud flavor, quiet room.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Focused</span><span>Bold</span><span>Traditional</span><span>Communal</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EFE6DC" data-hex="#EFE6DC"></div>
+        <div class="swatch" style="background:#C0392B" data-hex="#C0392B"></div>
+        <div class="swatch" style="background:#1A1A1A" data-hex="#1A1A1A"></div>
+        <div class="swatch" style="background:#D9B36A" data-hex="#D9B36A"></div>
+        <div class="swatch" style="background:#445566" data-hex="#445566"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Noodle bowl + chopstick sleeve</li>
+        <li>Hanging fabric noren / door curtain</li>
+        <li>Menu card (single-fold)</li>
+        <li>Takeaway soup container</li>
+        <li>Storefront lantern sign</li>
+        <li>Staff happi coat / apron</li>
+        <li>Matchbook</li>
+        <li>Counter-seat lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Petra &amp; Bloom</div>
+        <div class="card-industry">Florist &amp; botanical studio</div>
+      </div>
+      <div class="card-num">04 / 25</div>
+    </div>
+    <div class="card-story">A florist that designs arrangements like still-life paintings — unexpected textures, dried elements, foraged branches. Petra &amp; Bloom sells the arrangement and the story behind each stem.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Romantic</span><span>Wild</span><span>Editorial</span><span>Seasonal</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F7F1E8" data-hex="#F7F1E8"></div>
+        <div class="swatch" style="background:#A8786B" data-hex="#A8786B"></div>
+        <div class="swatch" style="background:#6E7F4C" data-hex="#6E7F4C"></div>
+        <div class="swatch" style="background:#D9A6A0" data-hex="#D9A6A0"></div>
+        <div class="swatch" style="background:#2E2A26" data-hex="#2E2A26"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Wrapped bouquet + kraft paper</li>
+        <li>Ribbon / care tag</li>
+        <li>Delivery box (flat-pack)</li>
+        <li>Studio business card</li>
+        <li>Storefront window display</li>
+        <li>Vase + arrangement flat lay</li>
+        <li>Seasonal catalog spread</li>
+        <li>Instagram story templates</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Theorem</div>
+        <div class="card-industry">Independent bookshop &amp; reading room</div>
+      </div>
+      <div class="card-num">05 / 25</div>
+    </div>
+    <div class="card-story">A bookshop-slash-reading-room for people who annotate. Theorem stocks essays, philosophy, and design books, with a back room set up for slow reading and small talks.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Intellectual</span><span>Quiet</span><span>Considered</span><span>Dry humor</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EDEAE2" data-hex="#EDEAE2"></div>
+        <div class="swatch" style="background:#2D3142" data-hex="#2D3142"></div>
+        <div class="swatch" style="background:#B8742E" data-hex="#B8742E"></div>
+        <div class="swatch" style="background:#6F7A6E" data-hex="#6F7A6E"></div>
+        <div class="swatch" style="background:#171717" data-hex="#171717"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Tote bag (book-shaped print)</li>
+        <li>Bookmark / receipt</li>
+        <li>Canvas reading-room sign</li>
+        <li>Bookplate sticker</li>
+        <li>Shelf-talker cards</li>
+        <li>Event poster (talks series)</li>
+        <li>Mug for reading-room counter</li>
+        <li>Newsletter template</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Forma Studio</div>
+        <div class="card-industry">Furniture design &amp; joinery workshop</div>
+      </div>
+      <div class="card-num">06 / 25</div>
+    </div>
+    <div class="card-story">A small joinery making furniture in runs of ten. Forma's identity is built around the technical drawing — every piece ships with the same diagram used to build it.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Precise</span><span>Technical</span><span>Restrained</span><span>Confident</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F4F4F1" data-hex="#F4F4F1"></div>
+        <div class="swatch" style="background:#D6541E" data-hex="#D6541E"></div>
+        <div class="swatch" style="background:#1E1E1E" data-hex="#1E1E1E"></div>
+        <div class="swatch" style="background:#B7AFA1" data-hex="#B7AFA1"></div>
+        <div class="swatch" style="background:#7E8C8A" data-hex="#7E8C8A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Care card with technical drawing</li>
+        <li>Wood swatch / finish samples</li>
+        <li>Shipping crate w/ stencil</li>
+        <li>Studio business card</li>
+        <li>Catalog spread (numbered pieces)</li>
+        <li>Workshop signage</li>
+        <li>Tape measure / tool branding</li>
+        <li>Showroom lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Mira Atelier</div>
+        <div class="card-industry">Niche perfume &amp; fragrance house</div>
+      </div>
+      <div class="card-num">07 / 25</div>
+    </div>
+    <div class="card-story">A fragrance house releasing one scent per season, named after a place rather than an emotion. Mira Atelier treats packaging like archival objects — meant to be kept, not thrown away.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Sensory</span><span>Archival</span><span>Quiet luxury</span><span>Intimate</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EAE3D8" data-hex="#EAE3D8"></div>
+        <div class="swatch" style="background:#5B3A29" data-hex="#5B3A29"></div>
+        <div class="swatch" style="background:#9C7A5A" data-hex="#9C7A5A"></div>
+        <div class="swatch" style="background:#3E4A3D" data-hex="#3E4A3D"></div>
+        <div class="swatch" style="background:#0F0E0C" data-hex="#0F0E0C"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Glass bottle + box set</li>
+        <li>Wax seal / ribbon detail</li>
+        <li>Sample vial set</li>
+        <li>Counter display tray</li>
+        <li>Tissue paper + shopping bag</li>
+        <li>Outer shipping box</li>
+        <li>Lookbook spread</li>
+        <li>Vanity flat lay</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Hearth &amp; Oat</div>
+        <div class="card-industry">Bakery &amp; sourdough subscription</div>
+      </div>
+      <div class="card-num">08 / 25</div>
+    </div>
+    <div class="card-story">A neighborhood bakery that runs on a weekly sourdough subscription — same loaf, same day, same wrap, every week. Hearth &amp; Oat's brand leans into that ritual and repetition.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Cozy</span><span>Reliable</span><span>Hand-made</span><span>Friendly</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#FBF3E8" data-hex="#FBF3E8"></div>
+        <div class="swatch" style="background:#C77B3C" data-hex="#C77B3C"></div>
+        <div class="swatch" style="background:#7A4A2B" data-hex="#7A4A2B"></div>
+        <div class="swatch" style="background:#3E5641" data-hex="#3E5641"></div>
+        <div class="swatch" style="background:#2A2420" data-hex="#2A2420"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Bread bag / wrap paper</li>
+        <li>Subscription card (weekly stamp)</li>
+        <li>Pastry box</li>
+        <li>Tote bag</li>
+        <li>Storefront chalkboard sign</li>
+        <li>Apron</li>
+        <li>Sticker sheet (loaf types)</li>
+        <li>Morning pickup lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 9 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Cur &amp; Co.</div>
+        <div class="card-industry">Premium pet food &amp; accessories</div>
+      </div>
+      <div class="card-num">09 / 25</div>
+    </div>
+    <div class="card-story">A pet brand for owners who treat feeding time like a ritual — single-source proteins, recyclable packaging, accessories built to last longer than a dog's chewing phase.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Trustworthy</span><span>Modern</span><span>Warm</span><span>Durable</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F1EDE4" data-hex="#F1EDE4"></div>
+        <div class="swatch" style="background:#2F4858" data-hex="#2F4858"></div>
+        <div class="swatch" style="background:#E0A458" data-hex="#E0A458"></div>
+        <div class="swatch" style="background:#8C5E58" data-hex="#8C5E58"></div>
+        <div class="swatch" style="background:#1C1C1C" data-hex="#1C1C1C"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Kibble bag (stand-up pouch)</li>
+        <li>Treat box</li>
+        <li>Collar &amp; leash tags</li>
+        <li>Ceramic feeding bowl</li>
+        <li>Shipping box w/ insert card</li>
+        <li>Retail shelf display</li>
+        <li>Pet + product lifestyle shot</li>
+        <li>Instagram grid</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 10 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Almanac Supply</div>
+        <div class="card-industry">Stationery &amp; planning goods</div>
+      </div>
+      <div class="card-num">10 / 25</div>
+    </div>
+    <div class="card-story">A stationery brand built around one annual planner system — undated, modular, designed to be refilled rather than replaced. Almanac Supply sells a method, not just notebooks.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Methodical</span><span>Calm</span><span>Utilitarian</span><span>Timeless</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F4F1EB" data-hex="#F4F1EB"></div>
+        <div class="swatch" style="background:#23344D" data-hex="#23344D"></div>
+        <div class="swatch" style="background:#C8553D" data-hex="#C8553D"></div>
+        <div class="swatch" style="background:#8A8775" data-hex="#8A8775"></div>
+        <div class="swatch" style="background:#1A1A1A" data-hex="#1A1A1A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Refillable notebook + dust jacket</li>
+        <li>Pen + pencil set</li>
+        <li>Sticker sheet (planning icons)</li>
+        <li>Desk organizer tray</li>
+        <li>Packaging box (subscription refill)</li>
+        <li>Desk flat lay</li>
+        <li>Website product page</li>
+        <li>Instagram carousel (system explainer)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 11 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Salt &amp; Anchor</div>
+        <div class="card-industry">Seafood market &amp; oyster bar</div>
+      </div>
+      <div class="card-num">11 / 25</div>
+    </div>
+    <div class="card-story">A dockside fishmonger with a six-stool oyster counter at the back. Salt &amp; Anchor sells the catch board first, branding second — labels look hand-chalked, crates look borrowed from the boat.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Briny</span><span>No-frills</span><span>Fresh</span><span>Coastal</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EEF1EC" data-hex="#EEF1EC"></div>
+        <div class="swatch" style="background:#1F4E5F" data-hex="#1F4E5F"></div>
+        <div class="swatch" style="background:#D8533A" data-hex="#D8533A"></div>
+        <div class="swatch" style="background:#9CA68B" data-hex="#9CA68B"></div>
+        <div class="swatch" style="background:#222222" data-hex="#222222"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Ice-bed catch board sign</li>
+        <li>Oyster tray + tag</li>
+        <li>Wax-paper wrap (fish counter)</li>
+        <li>Crate stencil</li>
+        <li>Apron</li>
+        <li>Menu chalkboard</li>
+        <li>Tote bag</li>
+        <li>Counter lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 12 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Quietude</div>
+        <div class="card-industry">Sleep &amp; wellness products</div>
+      </div>
+      <div class="card-num">12 / 25</div>
+    </div>
+    <div class="card-story">A sleep-focused brand — weighted blankets, pillow mists, herbal teas — for people who treat bedtime as a designed routine. Quietude's branding is built to look good half-lit, at 11pm.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Soft</span><span>Hushed</span><span>Comforting</span><span>Modern</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EDEAF2" data-hex="#EDEAF2"></div>
+        <div class="swatch" style="background:#3E3A5C" data-hex="#3E3A5C"></div>
+        <div class="swatch" style="background:#A8A4C9" data-hex="#A8A4C9"></div>
+        <div class="swatch" style="background:#D6B98C" data-hex="#D6B98C"></div>
+        <div class="swatch" style="background:#16151F" data-hex="#16151F"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Pillow mist bottle</li>
+        <li>Tea tin (bedtime blend)</li>
+        <li>Weighted blanket + fold label</li>
+        <li>Eye mask packaging</li>
+        <li>Nightstand flat lay</li>
+        <li>Shipping box (interior print)</li>
+        <li>App screen (sleep tracker)</li>
+        <li>Bedside lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 13 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Field Index</div>
+        <div class="card-industry">Topographic maps &amp; trail guides</div>
+      </div>
+      <div class="card-num">13 / 25</div>
+    </div>
+    <div class="card-story">A small publisher of hand-surveyed trail maps and regional guides. Field Index treats every product like a field document — annotated, gridded, slightly bureaucratic on purpose.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Cartographic</span><span>Precise</span><span>Analog</span><span>Practical</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F2EFE6" data-hex="#F2EFE6"></div>
+        <div class="swatch" style="background:#4A5D3A" data-hex="#4A5D3A"></div>
+        <div class="swatch" style="background:#B4502E" data-hex="#B4502E"></div>
+        <div class="swatch" style="background:#7A8A99" data-hex="#7A8A99"></div>
+        <div class="swatch" style="background:#28251F" data-hex="#28251F"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Folded trail map</li>
+        <li>Guidebook cover + spread</li>
+        <li>Compass / tool packaging</li>
+        <li>Sticker sheet (route markers)</li>
+        <li>Tote bag (printed map grid)</li>
+        <li>Shop display rack</li>
+        <li>Field notebook</li>
+        <li>Trailhead signage</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 14 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Casa Yema</div>
+        <div class="card-industry">Latin American bakery &amp; pastelería</div>
+      </div>
+      <div class="card-num">14 / 25</div>
+    </div>
+    <div class="card-story">A pastelería specializing in conchas, alfajores, and tres leches — bright, joyful, generous portions. Casa Yema's identity is loud in color but warm in tone, like a family kitchen with good lighting.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Joyful</span><span>Vibrant</span><span>Generous</span><span>Homestyle</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#FFF6E9" data-hex="#FFF6E9"></div>
+        <div class="swatch" style="background:#E8693C" data-hex="#E8693C"></div>
+        <div class="swatch" style="background:#F2C14E" data-hex="#F2C14E"></div>
+        <div class="swatch" style="background:#3E7C5A" data-hex="#3E7C5A"></div>
+        <div class="swatch" style="background:#2B2118" data-hex="#2B2118"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Pastry box (concha pattern)</li>
+        <li>Paper bag (counter size)</li>
+        <li>Cake box w/ window</li>
+        <li>Ribbon + sticker seal</li>
+        <li>Storefront awning sign</li>
+        <li>Menu board (handwritten style)</li>
+        <li>Apron</li>
+        <li>Display case lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 15 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Underline</div>
+        <div class="card-industry">Independent record label</div>
+      </div>
+      <div class="card-num">15 / 25</div>
+    </div>
+    <div class="card-story">A record label releasing limited-run vinyl across ambient, post-rock, and field-recording artists. Underline's identity is built around a single recurring waveform mark that changes per release.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Atmospheric</span><span>Niche</span><span>Tactile</span><span>Cool</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F0F0EE" data-hex="#F0F0EE"></div>
+        <div class="swatch" style="background:#101010" data-hex="#101010"></div>
+        <div class="swatch" style="background:#5A6ACF" data-hex="#5A6ACF"></div>
+        <div class="swatch" style="background:#C7C2B8" data-hex="#C7C2B8"></div>
+        <div class="swatch" style="background:#E8463A" data-hex="#E8463A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Vinyl record + sleeve</li>
+        <li>Cassette tape + case</li>
+        <li>Tote bag</li>
+        <li>Enamel pin / badge</li>
+        <li>Poster (release announcement)</li>
+        <li>Shipping mailer (record-safe)</li>
+        <li>Website release page</li>
+        <li>Studio lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 16 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Verdant Bicycle Co.</div>
+        <div class="card-industry">Urban bicycles &amp; commuter gear</div>
+      </div>
+      <div class="card-num">16 / 25</div>
+    </div>
+    <div class="card-story">A commuter bike brand for short, frequent rides — single-speed frames, pannier bags, repair kits. Verdant's identity reads more like a transit system than a bike shop: route-map clarity, signal colors.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Functional</span><span>Energetic</span><span>Urban</span><span>Approachable</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F2F4EE" data-hex="#F2F4EE"></div>
+        <div class="swatch" style="background:#1F2D24" data-hex="#1F2D24"></div>
+        <div class="swatch" style="background:#7FB069" data-hex="#7FB069"></div>
+        <div class="swatch" style="background:#F4A259" data-hex="#F4A259"></div>
+        <div class="swatch" style="background:#2B2B2B" data-hex="#2B2B2B"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Bike frame decal set</li>
+        <li>Pannier bag</li>
+        <li>Repair kit pouch</li>
+        <li>Helmet sticker</li>
+        <li>Storefront signage</li>
+        <li>Rider lifestyle shot (street)</li>
+        <li>Shipping box (bike parts)</li>
+        <li>App screen (route tracker)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 17 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Marrow Press</div>
+        <div class="card-industry">Letterpress &amp; print studio</div>
+      </div>
+      <div class="card-num">17 / 25</div>
+    </div>
+    <div class="card-story">A working letterpress studio printing wedding stationery, broadsides, and small editions on antique presses. Marrow Press sells the impression itself — deboss, ink texture, paper weight.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Tactile</span><span>Craft-forward</span><span>Heritage</span><span>Precise</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F7F4EE" data-hex="#F7F4EE"></div>
+        <div class="swatch" style="background:#2E2A28" data-hex="#2E2A28"></div>
+        <div class="swatch" style="background:#A33D2C" data-hex="#A33D2C"></div>
+        <div class="swatch" style="background:#C2B8A3" data-hex="#C2B8A3"></div>
+        <div class="swatch" style="background:#5A6B5D" data-hex="#5A6B5D"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Letterpress business card (deboss)</li>
+        <li>Wedding invitation suite</li>
+        <li>Wax seal + ribbon</li>
+        <li>Broadside / art print</li>
+        <li>Studio signage</li>
+        <li>Ink-stained workbench shot</li>
+        <li>Packaging envelope</li>
+        <li>Portfolio box</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 18 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Sunder Hot Sauce</div>
+        <div class="card-industry">Small-batch hot sauce &amp; condiments</div>
+      </div>
+      <div class="card-num">18 / 25</div>
+    </div>
+    <div class="card-story">A hot sauce maker releasing small numbered batches from a rotating roster of chili varieties. Sunder's labels carry heat ratings like vintage years — collectible, a little obsessive.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Bold</span><span>Punchy</span><span>Collectible</span><span>Playful</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#FBEFE3" data-hex="#FBEFE3"></div>
+        <div class="swatch" style="background:#D6402B" data-hex="#D6402B"></div>
+        <div class="swatch" style="background:#1E1E1E" data-hex="#1E1E1E"></div>
+        <div class="swatch" style="background:#E8B23E" data-hex="#E8B23E"></div>
+        <div class="swatch" style="background:#3E5C3A" data-hex="#3E5C3A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Hot sauce bottle + label</li>
+        <li>Gift box (3-pack)</li>
+        <li>Heat-scale sticker</li>
+        <li>Farmers market table sign</li>
+        <li>Shipping box</li>
+        <li>Tasting flight tray</li>
+        <li>Instagram batch-release grid</li>
+        <li>Kitchen flat lay (sauce + food)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 19 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Ply &amp; Co.</div>
+        <div class="card-industry">Boutique fitness studio (climbing/strength)</div>
+      </div>
+      <div class="card-num">19 / 25</div>
+    </div>
+    <div class="card-story">A bouldering-and-strength studio for people who train deliberately. Ply's branding borrows from chalk bags and tape rolls — utilitarian textures applied to a clean, modern gym identity.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Disciplined</span><span>Gritty</span><span>Modern</span><span>Community</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EFEFEC" data-hex="#EFEFEC"></div>
+        <div class="swatch" style="background:#222222" data-hex="#222222"></div>
+        <div class="swatch" style="background:#E0533D" data-hex="#E0533D"></div>
+        <div class="swatch" style="background:#A8A39A" data-hex="#A8A39A"></div>
+        <div class="swatch" style="background:#3A5A6A" data-hex="#3A5A6A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Chalk bag + branding</li>
+        <li>Gym tee / tank</li>
+        <li>Membership card</li>
+        <li>Wall signage (hold color key)</li>
+        <li>Water bottle</li>
+        <li>Towel</li>
+        <li>App screen (class booking)</li>
+        <li>Climber lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 20 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Loom &amp; Ledger</div>
+        <div class="card-industry">Handwoven textiles &amp; home goods</div>
+      </div>
+      <div class="card-num">20 / 25</div>
+    </div>
+    <div class="card-story">A textile studio producing handwoven blankets, napkins, and rugs from a single regional loom house. Loom &amp; Ledger documents each piece's weaver and pattern like a ledger entry.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Handmade</span><span>Warm</span><span>Documented</span><span>Earthy</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F5EFE6" data-hex="#F5EFE6"></div>
+        <div class="swatch" style="background:#B7472A" data-hex="#B7472A"></div>
+        <div class="swatch" style="background:#D9C27E" data-hex="#D9C27E"></div>
+        <div class="swatch" style="background:#5C6B4E" data-hex="#5C6B4E"></div>
+        <div class="swatch" style="background:#2A241E" data-hex="#2A241E"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Folded blanket + woven label</li>
+        <li>Napkin set + ribbon tie</li>
+        <li>Rug (room lifestyle shot)</li>
+        <li>Care/ledger tag</li>
+        <li>Shipping wrap (fabric-textured)</li>
+        <li>Studio loom photography</li>
+        <li>Catalog spread</li>
+        <li>Tote bag</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 21 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Nocturne Cinema</div>
+        <div class="card-industry">Independent late-night cinema</div>
+      </div>
+      <div class="card-num">21 / 25</div>
+    </div>
+    <div class="card-story">A single-screen cinema running midnight showings of cult films and director retrospectives. Nocturne's identity leans into film-strip textures and ticket-stub typography.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Moody</span><span>Nostalgic</span><span>Niche</span><span>Theatrical</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#E8E4DD" data-hex="#E8E4DD"></div>
+        <div class="swatch" style="background:#1A1620" data-hex="#1A1620"></div>
+        <div class="swatch" style="background:#D4AF37" data-hex="#D4AF37"></div>
+        <div class="swatch" style="background:#7A2E3D" data-hex="#7A2E3D"></div>
+        <div class="swatch" style="background:#3C3C44" data-hex="#3C3C44"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Ticket stub + program booklet</li>
+        <li>Marquee / neon signage</li>
+        <li>Popcorn box</li>
+        <li>Poster (retrospective series)</li>
+        <li>Tote bag</li>
+        <li>Membership card</li>
+        <li>Lobby display</li>
+        <li>App screen (showtimes)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 22 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Hearthstone &amp; Vine</div>
+        <div class="card-industry">Boutique hotel &amp; bed-and-breakfast</div>
+      </div>
+      <div class="card-num">22 / 25</div>
+    </div>
+    <div class="card-story">A six-room countryside inn converted from a working farmhouse. Hearthstone &amp; Vine's identity feels like stationery you'd find in the guestroom desk drawer — warm, embossed, slightly formal.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Hospitable</span><span>Heritage</span><span>Refined</span><span>Pastoral</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F6F1E7" data-hex="#F6F1E7"></div>
+        <div class="swatch" style="background:#5B4636" data-hex="#5B4636"></div>
+        <div class="swatch" style="background:#7C8B5C" data-hex="#7C8B5C"></div>
+        <div class="swatch" style="background:#C9A66B" data-hex="#C9A66B"></div>
+        <div class="swatch" style="background:#2B241E" data-hex="#2B241E"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Room key card + sleeve</li>
+        <li>Guestbook / welcome card</li>
+        <li>Toiletries set (embossed)</li>
+        <li>Door signage (room numbers)</li>
+        <li>Breakfast tray flat lay</li>
+        <li>Exterior signage (entrance)</li>
+        <li>Tote / robe embroidery</li>
+        <li>Website homepage</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 23 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Spindle</div>
+        <div class="card-industry">Children's toy &amp; play brand</div>
+      </div>
+      <div class="card-num">23 / 25</div>
+    </div>
+    <div class="card-story">A wooden-toy brand making open-ended play sets — blocks, stackers, pull-toys — designed to look as good on a shelf as in a toy box. Spindle's tone is playful but never cluttered.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Playful</span><span>Gentle</span><span>Curious</span><span>Tidy</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F7F3EA" data-hex="#F7F3EA"></div>
+        <div class="swatch" style="background:#E2725B" data-hex="#E2725B"></div>
+        <div class="swatch" style="background:#5C9EAD" data-hex="#5C9EAD"></div>
+        <div class="swatch" style="background:#F4C95D" data-hex="#F4C95D"></div>
+        <div class="swatch" style="background:#3A3A3A" data-hex="#3A3A3A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Toy box packaging</li>
+        <li>Wooden block set + pouch</li>
+        <li>Gift tag / instruction card</li>
+        <li>Shelf display (retail)</li>
+        <li>Shipping box (kid-friendly print)</li>
+        <li>Playroom lifestyle shot</li>
+        <li>Sticker sheet</li>
+        <li>App screen (parent guide)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 24 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Ferro Coffee Roasters</div>
+        <div class="card-industry">Industrial-style coffee roastery (wholesale)</div>
+      </div>
+      <div class="card-num">24 / 25</div>
+    </div>
+    <div class="card-story">A wholesale roaster supplying cafés across the region — no retail storefront, just a warehouse roastery. Ferro's identity reads like factory signage: stenciled, stamped, built for bulk bags and pallets.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Industrial</span><span>Efficient</span><span>Bold</span><span>Wholesale</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#EDEAE4" data-hex="#EDEAE4"></div>
+        <div class="swatch" style="background:#2B2B2B" data-hex="#2B2B2B"></div>
+        <div class="swatch" style="background:#C4501F" data-hex="#C4501F"></div>
+        <div class="swatch" style="background:#8C8478" data-hex="#8C8478"></div>
+        <div class="swatch" style="background:#4A4A4A" data-hex="#4A4A4A"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Bulk coffee sack (burlap)</li>
+        <li>Wholesale bag (5kg)</li>
+        <li>Pallet stencil branding</li>
+        <li>Delivery van signage</li>
+        <li>Roastery warehouse signage</li>
+        <li>Spec sheet / order form</li>
+        <li>Sample box (cafe outreach)</li>
+        <li>Roaster lifestyle shot</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 25 -->
+  <div class="card">
+    <div class="card-head">
+      <div>
+        <div class="card-name">Aviary</div>
+        <div class="card-industry">Specialty tea blends &amp; apothecary</div>
+      </div>
+      <div class="card-num">25 / 25</div>
+    </div>
+    <div class="card-story">A loose-leaf tea apothecary organizing blends by mood and ritual rather than caffeine content. Aviary's identity uses bird-and-botanical motifs as a quiet wayfinding system across the product line.</div>
+    <div>
+      <div class="label">Personality</div>
+      <div class="traits"><span>Apothecary</span><span>Gentle</span><span>Botanical</span><span>Quiet</span></div>
+    </div>
+    <div class="swatch-row">
+      <div class="label">Palette</div>
+      <div class="palette">
+        <div class="swatch" style="background:#F3F0E6" data-hex="#F3F0E6"></div>
+        <div class="swatch" style="background:#5E6B4F" data-hex="#5E6B4F"></div>
+        <div class="swatch" style="background:#C9876A" data-hex="#C9876A"></div>
+        <div class="swatch" style="background:#9FB4A8" data-hex="#9FB4A8"></div>
+        <div class="swatch" style="background:#2E2C26" data-hex="#2E2C26"></div>
+      </div>
+    </div>
+    <div>
+      <div class="label">Mockups needed</div>
+      <ul class="mockups">
+        <li class="hero">Tea tin (mood-coded labels)</li>
+        <li>Loose-leaf pouch (refill)</li>
+        <li>Apothecary jar shelf display</li>
+        <li>Tea infuser + card set</li>
+        <li>Gift box (sampler)</li>
+        <li>Storefront signage</li>
+        <li>Brewing guide card</li>
+        <li>Flat lay (tea + botanicals)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<footer>25 brands · 25 industries · 25 palettes · combined collection</footer>
+
+</body>
+</html>
